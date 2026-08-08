@@ -46,6 +46,8 @@ const html = `<script type="application/ld+json">
   </div>
 </header>
 
+<main>
+
 <section class="page-head hero-photo">
   <div class="container">
     <div class="eyebrow" style="justify-content:center;">Guest Stories</div>
@@ -186,6 +188,8 @@ const html = `<script type="application/ld+json">
     </div>
   </div>
 </section>
+
+</main>
 
 <footer>
   <div class="container">

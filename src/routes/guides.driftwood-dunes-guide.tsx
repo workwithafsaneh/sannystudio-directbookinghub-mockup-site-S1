@@ -54,6 +54,8 @@ const html = `<script type="application/ld+json">
   </div>
 </header>
 
+<main>
+
 <div class="container">
   <div class="breadcrumb-strip">Home <span>/</span> Guides <span>/</span> Driftwood Dunes Guide</div>
 </div>
@@ -135,6 +137,8 @@ const html = `<script type="application/ld+json">
     </a>
   </div>
 </div>
+
+</main>
 
 <footer>
   <div class="container">

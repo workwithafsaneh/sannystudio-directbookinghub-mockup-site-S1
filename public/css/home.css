@@ -10,7 +10,7 @@
     --card-border:#D1B384;  /* card borders / hairlines — tint of Palladium */
     --ink:#1A120E;          /* primary text — Soulless */
     --ink-soft:#3B2A20;     /* secondary text — near Clinker */
-    --ink-faint:#7A6552;    /* labels, captions — Grey Charcoal */
+    --ink-faint:#5C4A39;    /* labels, captions — Grey Charcoal */
 
     --mahogany:#3B2A20;     /* Caramel Café — primary CTA, price, links */
     --mahogany-deep:#2A1D16;/* CTA hover state — darkened Caramel Café */
@@ -24,9 +24,9 @@
 
     /* Embedded property photos — kept as data URIs so this single HTML file
        works standalone with no external /images folder dependency. */
-    --img-18ocean:url("/images/properties/ocean-blvd/01-exterior-dusk.jpg");
-    --img-cedar:url("/images/properties/cedar-hollow/01-living-kitchen.jpg");
-    --img-firelight:url("/images/properties/firelight/01-hot-tub-garden.jpg");
+    --img-18ocean:url("/images/properties/ocean-blvd/01-exterior-dusk.webp");
+    --img-cedar:url("/images/properties/cedar-hollow/01-living-kitchen.webp");
+    --img-firelight:url("/images/properties/firelight/01-hot-tub-garden.webp");
 
     --radius:14px;
     --radius-sm:8px;

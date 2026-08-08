@@ -5,7 +5,7 @@
     --card-border:#D1B384;
     --ink:#1A120E;
     --ink-soft:#3B2A20;
-    --ink-faint:#7A6552;
+    --ink-faint:#5C4A39;
     --maroon:#3B2A20;
     --maroon-deep:#2A1D16;
     --olive-deep:#1A120E;
@@ -233,10 +233,11 @@
   .faq-item p{font-size:.88rem; padding:0 4px 16px;}
 
   /* ---------- Similar stays ---------- */
-  .similar-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:18px;}
-  .similar-card{background:var(--cream-2); border:1px solid var(--card-border); border-radius:var(--radius); overflow:hidden;}
-  .similar-card .ph-photo{border-radius:0; height:150px;}
-  .similar-body{padding:14px 16px; display:flex; justify-content:space-between; align-items:flex-end;}
+  .similar-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:18px; align-items:stretch;}
+  .similar-grid > a{display:flex; height:100%;}
+  .similar-card{background:var(--cream-2); border:1px solid var(--card-border); border-radius:var(--radius); overflow:hidden; display:flex; flex-direction:column; width:100%; box-sizing:border-box;}
+  .similar-card .ph-photo{border-radius:0; height:150px; flex-shrink:0;}
+  .similar-body{padding:14px 16px; display:flex; justify-content:space-between; align-items:flex-end; flex:1;}
   .similar-body h4{font-family:'Playfair Display',serif; margin:0 0 3px;}
   .similar-body .loc{font-size:.76rem; color:var(--ink-faint);}
   .similar-body .price{font-size:.85rem; font-weight:600;}
@@ -363,10 +364,10 @@
     *{transition:none !important;}
   }
 :root{
-  --img-cedar-hollow-01: url("/images/properties/cedar-hollow/01-living-kitchen.jpg");
-  --img-cedar-hollow-02: url("/images/properties/cedar-hollow/02-kitchen-detail.jpg");
-  --img-cedar-hollow-03: url("/images/properties/cedar-hollow/03-hot-tub-gazebo.jpg");
+  --img-cedar-hollow-01: url("/images/properties/cedar-hollow/01-living-kitchen.webp");
+  --img-cedar-hollow-02: url("/images/properties/cedar-hollow/02-kitchen-detail.webp");
+  --img-cedar-hollow-03: url("/images/properties/cedar-hollow/03-hot-tub-gazebo.webp");
   --img-cedar-hollow-04: url("/images/properties/cedar-hollow/04-yard.jpg");
-  --img-firelight-01: url("/images/properties/firelight/01-hot-tub-garden.jpg");
-  --img-ocean-blvd-01: url("/images/properties/ocean-blvd/01-exterior-dusk.jpg");
+  --img-firelight-01: url("/images/properties/firelight/01-hot-tub-garden.webp");
+  --img-ocean-blvd-01: url("/images/properties/ocean-blvd/01-exterior-dusk.webp");
 }

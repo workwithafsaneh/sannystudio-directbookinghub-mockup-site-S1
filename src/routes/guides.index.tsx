@@ -35,6 +35,8 @@ const html = `<header class="site-header">
   </div>
 </header>
 
+<main>
+
 <div class="container">
   <div class="breadcrumb-strip">Home <span>/</span> Guides</div>
 
@@ -154,6 +156,8 @@ const html = `<header class="site-header">
     <div class="newsletter-msg" id="nlMsg"></div>
   </div>
 </div>
+
+</main>
 
 <footer>
   <div class="container">

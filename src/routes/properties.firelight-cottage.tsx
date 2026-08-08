@@ -82,6 +82,8 @@ const html = `<script type="application/ld+json">
   </div>
 </header>
 
+<main>
+
 <div class="container">
   <div class="breadcrumb-strip" style="margin-top:22px;">Home <span>/</span> Properties <span>/</span> Firelight Cottage</div>
 </div>
@@ -117,7 +119,7 @@ const html = `<script type="application/ld+json">
   </div>
 
   <div class="content-grid">
-    <main>
+    <div>
 
       <section class="block">
         <h2>About this home</h2>
@@ -312,7 +314,7 @@ const html = `<script type="application/ld+json">
         </div>
       </section>
 
-    </main>
+    </div>
 
     <aside class="booking-card" id="booking">
       <div class="booking-head">
@@ -404,6 +406,8 @@ const html = `<script type="application/ld+json">
     <div class="lightbox-thumbs" id="lightboxThumbs"></div>
   </div>
 </div>
+
+</main>
 
 <footer>
   <div class="container">

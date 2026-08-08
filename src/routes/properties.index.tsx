@@ -35,6 +35,8 @@ const html = `<header class="site-header">
   </div>
 </header>
 
+<main>
+
 <div class="container">
   <div class="breadcrumb-strip">Home <span>/</span> Properties</div>
 
@@ -46,7 +48,7 @@ const html = `<header class="site-header">
 
   <div class="filter-bar">
     <div>
-      <span class="field-label">Destination</span>
+      <label class="field-label" for="filterDestination">Destination</label>
       <select id="filterDestination">
         <option value="all">Anywhere</option>
         <option value="washington">Washington Coast</option>
@@ -54,7 +56,7 @@ const html = `<header class="site-header">
       </select>
     </div>
     <div>
-      <span class="field-label">Guests</span>
+      <label class="field-label" for="filterGuests">Guests</label>
       <select id="filterGuests">
         <option value="0">Any</option>
         <option value="2">2+ guests</option>
@@ -64,7 +66,7 @@ const html = `<header class="site-header">
       </select>
     </div>
     <div>
-      <span class="field-label">Sort By</span>
+      <label class="field-label" for="sortBy">Sort By</label>
       <select id="sortBy">
         <option value="recommended">Recommended</option>
         <option value="price-asc">Price: Low to High</option>
@@ -100,7 +102,7 @@ const html = `<header class="site-header">
         <div class="ph-photo has-photo" style="background-image:var(--img-ocean-blvd-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="18 Ocean Blvd exterior at dusk"><span class="card-tag">Signature Stay</span><span class="card-rating">★ 4.98</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Ocean Shores, Washington</div>
-          <h3>18 Ocean Blvd — Coastal Retreat</h3>
+          <h2>18 Ocean Blvd — Coastal Retreat</h2>
           <div class="property-meta">5 Bed · 3 Bath · Sleeps 10</div>
           <div class="property-footer"><div class="price">$412 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="/properties/18-ocean-blvd">View Stay</a></div>
         </div>
@@ -110,7 +112,7 @@ const html = `<header class="site-header">
         <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Ocean%20Shores%2C%20WA%2001.jpg?width=700')" role="img" aria-label="Oceanfront view near Ocean Shores, Washington"><span class="card-tag">Oceanfront</span><span class="card-rating">★ 4.89</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Ocean Shores, Washington</div>
-          <h3>Driftwood Point Villa</h3>
+          <h2>Driftwood Point Villa</h2>
           <div class="property-meta">4 Bed · 3 Bath · Sleeps 8</div>
           <div class="property-footer"><div class="price">$375 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
@@ -120,7 +122,7 @@ const html = `<header class="site-header">
         <div class="ph-photo has-photo" style="background-image:var(--img-cedar-hollow-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Cedar Hollow Cabin living area"><span class="card-tag">Cozy Getaway</span><span class="card-rating">★ 4.92</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Leavenworth, Washington</div>
-          <h3>Cedar Hollow Cabin</h3>
+          <h2>Cedar Hollow Cabin</h2>
           <div class="property-meta">1 Bed + Loft · 1 Bath · Sleeps 4</div>
           <div class="property-footer"><div class="price">$189 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="/properties/cedar-hollow-cabin">View Stay</a></div>
         </div>
@@ -130,7 +132,7 @@ const html = `<header class="site-header">
         <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Westport%2C%20WA%20-%20beach%20scene.jpg?width=700')" role="img" aria-label="Westport, Washington coastline"><span class="card-tag">Large Group</span><span class="card-rating">★ 4.94</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Westport, Washington</div>
-          <h3>Pinecrest Lodge</h3>
+          <h2>Pinecrest Lodge</h2>
           <div class="property-meta">6 Bed · 4 Bath · Sleeps 12</div>
           <div class="property-footer"><div class="price">$520 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
@@ -140,7 +142,7 @@ const html = `<header class="site-header">
         <div class="ph-photo has-photo" style="background-image:var(--img-firelight-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Firelight Cottage garden hot tub"><span class="card-tag">Island Home</span><span class="card-rating">★ 4.95</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Princeville, Kauai, Hawaii</div>
-          <h3>Firelight Cottage</h3>
+          <h2>Firelight Cottage</h2>
           <div class="property-meta">3 Bed · 2 Bath · Sleeps 8</div>
           <div class="property-footer"><div class="price">$415 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="/properties/firelight-cottage">View Stay</a></div>
         </div>
@@ -150,7 +152,7 @@ const html = `<header class="site-header">
         <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Kapalua%20Beach%20park%20Maui%20Hawaii%20%2845740255431%29.jpg?width=700')" role="img" aria-label="Kapalua Beach, Maui"><span class="card-tag">Island Escape</span><span class="card-rating">★ 4.97</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Kapalua, Maui, Hawaii</div>
-          <h3>Kapalua Sunset Bungalow</h3>
+          <h2>Kapalua Sunset Bungalow</h2>
           <div class="property-meta">2 Bed · 2 Bath · Sleeps 4</div>
           <div class="property-footer"><div class="price">$329 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
@@ -160,7 +162,7 @@ const html = `<header class="site-header">
         <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Haleiwa%20Beach%20and%20Maeaea%20Beach%20-%20Haleiwa%20Oahu%20Hawaii.jpg?width=700')" role="img" aria-label="Haleiwa Beach, North Shore Oahu"><span class="card-tag">Beachfront</span><span class="card-rating">★ 4.91</span></div>
         <div class="property-body">
           <div class="property-loc">📍 North Shore, Oahu, Hawaii</div>
-          <h3>Hale Nalu Beach House</h3>
+          <h2>Hale Nalu Beach House</h2>
           <div class="property-meta">3 Bed · 2 Bath · Sleeps 6</div>
           <div class="property-footer"><div class="price">$398 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
@@ -170,7 +172,7 @@ const html = `<header class="site-header">
         <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Beach%20-%20panoramio.jpg?width=700')" role="img" aria-label="Lanikai Beach, Kailua, Oahu"><span class="card-tag">Couples Escape</span><span class="card-rating">★ 4.90</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Kailua, Oahu, Hawaii</div>
-          <h3>Lanikai Palms Cottage</h3>
+          <h2>Lanikai Palms Cottage</h2>
           <div class="property-meta">2 Bed · 1 Bath · Sleeps 4</div>
           <div class="property-footer"><div class="price">$284 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
@@ -188,6 +190,8 @@ const html = `<header class="site-header">
     </div>
   </section>
 </div>
+
+</main>
 
 <footer>
   <div class="container">

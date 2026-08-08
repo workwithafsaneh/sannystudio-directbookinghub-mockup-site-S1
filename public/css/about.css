@@ -1,7 +1,7 @@
 
   :root{
     --cream:#F3E8D6; --cream-2:#E6D2B3; --card-border:#D1B384;
-    --ink:#1A120E; --ink-soft:#3B2A20; --ink-faint:#7A6552;
+    --ink:#1A120E; --ink-soft:#3B2A20; --ink-faint:#5C4A39;
     --maroon:#3B2A20; --maroon-deep:#2A1D16; --olive-deep:#1A120E; --olive:#3B2A20; --gold:#C68F59; --near-black:#1A120E;
     --radius:14px; --radius-sm:8px;
     --shadow: 0 14px 34px rgba(26,18,14,0.16); --shadow-sm: 0 4px 14px rgba(26,18,14,0.10);
@@ -10,7 +10,7 @@
        landing page, reused here since it's the original Ocean Shores property
        referenced in the story below. Kept as a data URI so this file has no
        external /images folder dependency. */
-    --img-story-photo:url("/images/properties/ocean-blvd/01-exterior-dusk.jpg");
+    --img-story-photo:url("/images/properties/ocean-blvd/01-exterior-dusk.webp");
   }
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}

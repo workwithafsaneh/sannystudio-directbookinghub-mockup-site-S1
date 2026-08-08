@@ -33,6 +33,8 @@ const html = `<header class="site-header">
   </div>
 </header>
 
+<main>
+
 <div class="container">
   <div class="breadcrumb-strip">Home <span>/</span> About</div>
 </div>
@@ -115,6 +117,8 @@ const html = `<header class="site-header">
     </div>
   </div>
 </section>
+
+</main>
 
 <footer>
   <div class="container">

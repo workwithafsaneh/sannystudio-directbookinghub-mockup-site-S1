@@ -188,7 +188,7 @@ footer .social-icon.wordmark {
 /* ---------- Reviews hero photo ---------- */
 .page-head.hero-photo {
   background-image: linear-gradient(180deg, rgba(15,10,7,.74), rgba(26,18,14,.86)),
-    url("/images/reviews/reviews-hero.jpg"),
+    url("/images/reviews/reviews-hero.webp"),
     linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20);
   background-size: cover;
   background-position: center 60%;
@@ -257,7 +257,7 @@ footer .social-icon:hover {
 /* ---------- Reviews hero (uploaded photo, flush with stats) ---------- */
 .page-head.hero-photo {
   background-image: linear-gradient(180deg, rgba(15,10,7,.62), rgba(26,18,14,.82)),
-    url("/images/reviews/reviews-hero-2.jpg"),
+    url("/images/reviews/reviews-hero-2.webp"),
     linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20) !important;
   background-position: center 55% !important;
   margin-bottom: 0 !important;
