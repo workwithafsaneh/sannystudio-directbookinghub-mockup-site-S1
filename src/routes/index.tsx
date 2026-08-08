@@ -553,14 +553,18 @@ const script = `/* ---------- Mobile nav ---------- */
   });
 
   /* ---------- Guest Stories carousel: slow auto-slide + side arrows ---------- */
-  (function(){
+  /* Deferred until the browser is idle so it can never compete with, or get
+     mistaken for, the page's initial paint / LCP work. */
+  function initReviewCarousel(){
     const track = document.getElementById('reviewTrack');
     if(!track) return;
     const cardStep = 362;
     let timer = null;
 
     function advance(){
-      if(track.scrollLeft + track.clientWidth >= track.scrollWidth - 10){
+      // cache reads once per call instead of re-querying layout repeatedly
+      const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 10;
+      if(atEnd){
         track.scrollTo({ left: 0, behavior: 'smooth' });
       } else {
         track.scrollBy({ left: cardStep, behavior: 'smooth' });
@@ -585,7 +589,13 @@ const script = `/* ---------- Mobile nav ---------- */
     track.addEventListener('mouseleave', function(){ resetAutoplay(); });
     track.addEventListener('touchstart', function(){ clearInterval(timer); }, { passive: true });
     startAutoplay();
-  })();`;
+  }
+
+  if('requestIdleCallback' in window){
+    requestIdleCallback(initReviewCarousel, { timeout: 4000 });
+  } else {
+    setTimeout(initReviewCarousel, 2000);
+  }`;
 
 function HomePage() {
   return <PageShell html={html} script={script} />;
