@@ -123,8 +123,8 @@ const html = `<script type="application/ld+json">
 <div class="container search-wrap">
   <div class="search-bar">
     <div>
-      <span class="field-label">Destination</span>
-      <select>
+      <label class="field-label" for="destinationSelect">Destination</label>
+      <select id="destinationSelect">
         <option>Anywhere</option>
         <option>Ocean Shores, WA</option>
         <option>Westport, WA</option>
@@ -133,7 +133,7 @@ const html = `<script type="application/ld+json">
       </select>
     </div>
     <div class="date-field">
-      <span class="field-label">Check-in</span>
+      <label class="field-label" for="checkinInput">Check-in</label>
       <input type="text" id="checkinInput" class="date-trigger" placeholder="Add date" readonly onclick="toggleDatePopover()">
     <div class="date-popover" id="datePopover">
       <div class="date-popover-head">
@@ -180,12 +180,12 @@ const html = `<script type="application/ld+json">
     </div>
     </div>
     <div>
-      <span class="field-label">Check-out</span>
+      <label class="field-label" for="checkoutInput">Check-out</label>
       <input type="text" id="checkoutInput" class="date-trigger" placeholder="Add date" readonly onclick="toggleDatePopover()">
     </div>
     <div>
-      <span class="field-label">Guests</span>
-      <select>
+      <label class="field-label" for="guestsSelect">Guests</label>
+      <select id="guestsSelect">
         <option>2 guests</option>
         <option>4 guests</option>
         <option>6 guests</option>
@@ -361,7 +361,7 @@ const html = `<script type="application/ld+json">
     <div class="eyebrow light">Stay Inspired</div>
     <h2>Letters From the Places We Love</h2>
     <form class="newsletter-form" onsubmit="event.preventDefault(); document.getElementById('nlMsg').textContent='Thanks — check your inbox to confirm.'; this.reset();">
-      <input type="email" placeholder="Your email address" required>
+      <input type="email" aria-label="Your email address" placeholder="Your email address" required>
       <button class="btn btn-primary" type="submit">Get Early Access →</button>
     </form>
     <div class="newsletter-msg" id="nlMsg"></div>

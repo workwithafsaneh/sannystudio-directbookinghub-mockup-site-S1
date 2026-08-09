@@ -150,7 +150,7 @@ const html = `<header class="site-header">
     <div class="eyebrow">Stay Inspired</div>
     <h2>Letters From the Places We Love</h2>
     <form class="newsletter-form" onsubmit="event.preventDefault(); document.getElementById('nlMsg').textContent='Thanks — check your inbox to confirm.'; this.reset();">
-      <input type="email" placeholder="Your email address" required>
+      <input type="email" aria-label="Your email address" placeholder="Your email address" required>
       <button class="btn btn-primary" type="submit">Get Early Access →</button>
     </form>
     <div class="newsletter-msg" id="nlMsg"></div>

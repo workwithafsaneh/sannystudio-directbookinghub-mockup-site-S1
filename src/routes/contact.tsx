@@ -50,18 +50,18 @@ const html = `<header class="site-header">
       <form id="contactForm" onsubmit="handleContactSubmit(event)">
         <div class="two-col">
           <div class="field-row">
-            <span class="field-label">Full Name</span>
-            <input type="text" required placeholder="Your name">
+            <label class="field-label" for="contactName">Full Name</label>
+            <input type="text" id="contactName" required placeholder="Your name">
           </div>
           <div class="field-row">
-            <span class="field-label">Email</span>
-            <input type="email" required placeholder="you@email.com">
+            <label class="field-label" for="contactEmail">Email</label>
+            <input type="email" id="contactEmail" required placeholder="you@email.com">
           </div>
         </div>
         <div class="two-col">
           <div class="field-row">
-            <span class="field-label">Property (optional)</span>
-            <select>
+            <label class="field-label" for="contactProperty">Property (optional)</label>
+            <select id="contactProperty">
               <option>General Inquiry</option>
               <option>18 Ocean Blvd — Coastal Retreat</option>
               <option>Cedar Hollow Cabin</option>
@@ -71,13 +71,13 @@ const html = `<header class="site-header">
             </select>
           </div>
           <div class="field-row">
-            <span class="field-label">Preferred Dates (optional)</span>
-            <input type="text" placeholder="e.g., Aug 12–16, 2026">
+            <label class="field-label" for="contactDates">Preferred Dates (optional)</label>
+            <input type="text" id="contactDates" placeholder="e.g., Aug 12–16, 2026">
           </div>
         </div>
         <div class="field-row">
-          <span class="field-label">Message</span>
-          <textarea required placeholder="Tell us a bit about your trip..."></textarea>
+          <label class="field-label" for="contactMessage">Message</label>
+          <textarea id="contactMessage" required placeholder="Tell us a bit about your trip..."></textarea>
         </div>
         <button class="btn btn-primary btn-full" type="submit">Send Message</button>
         <div class="form-msg" id="formMsg"></div>

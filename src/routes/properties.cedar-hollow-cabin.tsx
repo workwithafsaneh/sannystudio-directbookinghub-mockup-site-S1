@@ -365,8 +365,8 @@ const html = `<script type="application/ld+json">
         </div>
       </div>
 
-      <span class="field-label">Guests</span>
-      <select>
+      <label class="field-label" for="bookingGuests">Guests</label>
+      <select id="bookingGuests">
         <option>2 guests</option>
         <option>3 guests</option>
         <option>4 guests</option>

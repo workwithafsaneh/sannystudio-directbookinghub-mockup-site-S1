@@ -57,17 +57,18 @@
   .ph-photo::after{content:attr(data-photo); font-family:'Jost'; opacity:.9;}
   .ph-photo.has-photo{background-size:cover; background-position:center;}
   .property-card .ph-photo::after, .ph-photo.has-photo::after{content:none;}
-  .property-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px; align-items:stretch;}
+  .property-grid{display:grid; grid-template-columns:repeat(2,1fr); gap:26px; align-items:stretch;}
   .property-card{background:var(--cream-2); border:1px solid var(--card-border); border-radius:var(--radius); overflow:hidden; display:flex; flex-direction:column; height:100%; box-sizing:border-box; transition:opacity .2s ease, transform .2s ease;}
   .property-card.hidden{display:none;}
-  .property-card .ph-photo{border-radius:0; height:240px; flex-shrink:0; align-items:flex-start; justify-content:space-between; padding:12px;}
+  .property-card .ph-photo{border-radius:0; height:320px; flex-shrink:0; align-items:flex-start; justify-content:space-between; padding:14px;}
   .card-tag{font-size:.65rem; text-transform:uppercase; letter-spacing:.06em; background:rgba(26,18,14,.55); padding:4px 10px; border-radius:12px;}
   .card-rating{font-size:.72rem; background:rgba(59,42,32,.85); padding:4px 9px; border-radius:12px;}
-  .property-body{padding:18px 18px 20px; display:flex; flex-direction:column; flex:1;}
-  .property-loc{font-size:.74rem; color:var(--maroon); text-transform:uppercase; letter-spacing:.04em; margin-bottom:4px;}
-  .property-body h3{font-size:1.15rem; margin-bottom:8px;}
-  .property-meta{font-size:.78rem; color:var(--ink-faint); margin-bottom:14px;}
-  .property-footer{display:flex; justify-content:space-between; align-items:center; margin-top:auto; padding-top:14px;}
+  .property-body{padding:16px 20px 20px; display:flex; flex-direction:column; flex:1;}
+  .property-loc{font-size:.72rem; color:var(--maroon); text-transform:uppercase; letter-spacing:.04em; margin-bottom:2px;}
+  .property-body h2{font-size:1.2rem; margin-bottom:2px; line-height:1.25;}
+  .property-meta{font-size:.76rem; color:var(--ink-faint); margin-bottom:10px;}
+  .property-desc{font-size:.85rem; color:var(--ink-soft); line-height:1.5; margin-bottom:14px;}
+  .property-footer{display:flex; justify-content:space-between; align-items:center; margin-top:auto; padding-top:14px; border-top:1px solid var(--card-border);}
   .property-footer .price{font-family:'Playfair Display',serif; font-size:1.5rem; font-weight:700; color:var(--ink);}
   .property-footer .price span{font-size:.7rem; font-family:'Jost'; color:var(--ink-faint); font-weight:400;}
 

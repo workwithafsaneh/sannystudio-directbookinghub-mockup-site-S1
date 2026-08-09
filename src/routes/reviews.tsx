@@ -68,7 +68,7 @@ const html = `<script type="application/ld+json">
 <div class="container">
   <div class="filter-bar">
     <div>
-      <span class="field-label">Property</span>
+      <label class="field-label" for="filterProperty">Property</label>
       <select id="filterProperty" onchange="applyReviewFilter()">
         <option value="all">All Properties</option>
         <option value="ocean-blvd">18 Ocean Blvd — Coastal Retreat</option>
@@ -77,7 +77,7 @@ const html = `<script type="application/ld+json">
       </select>
     </div>
     <div>
-      <span class="field-label">Sort By</span>
+      <label class="field-label" for="sortReviews">Sort By</label>
       <select id="sortReviews" onchange="applyReviewFilter()">
         <option value="recent">Most Recent</option>
         <option value="rating">Highest Rated</option>

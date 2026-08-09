@@ -75,7 +75,7 @@ const html = `<header class="site-header">
       </select>
     </div>
     <div class="date-field">
-      <span class="field-label">Dates</span>
+      <label class="field-label" for="dateInput">Dates</label>
       <input type="text" id="dateInput" class="date-trigger" placeholder="Any dates" readonly onclick="togglePropDates()">
       <div class="date-popover" id="propDatePopover">
         <div class="date-popover-head">
@@ -104,6 +104,7 @@ const html = `<header class="site-header">
           <div class="property-loc">📍 Ocean Shores, Washington</div>
           <h2>18 Ocean Blvd — Coastal Retreat</h2>
           <div class="property-meta">5 Bed · 3 Bath · Sleeps 10</div>
+          <p class="property-desc">A five-bedroom coastal escape with vaulted ceilings, a private hot tub, and a wraparound deck built for sunset dinners by the fire pit.</p>
           <div class="property-footer"><div class="price">$412 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="/properties/18-ocean-blvd">View Stay</a></div>
         </div>
       </div>
@@ -114,6 +115,7 @@ const html = `<header class="site-header">
           <div class="property-loc">📍 Ocean Shores, Washington</div>
           <h2>Driftwood Point Villa</h2>
           <div class="property-meta">4 Bed · 3 Bath · Sleeps 8</div>
+          <p class="property-desc">Steps from the sand, this oceanfront villa pairs panoramic Pacific views with a bright, open floor plan perfect for family gatherings.</p>
           <div class="property-footer"><div class="price">$375 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
       </div>
@@ -124,6 +126,7 @@ const html = `<header class="site-header">
           <div class="property-loc">📍 Leavenworth, Washington</div>
           <h2>Cedar Hollow Cabin</h2>
           <div class="property-meta">1 Bed + Loft · 1 Bath · Sleeps 4</div>
+          <p class="property-desc">A cozy Bavarian-style hideaway tucked among the evergreens, minutes from Leavenworth's village — ideal for a quiet mountain escape.</p>
           <div class="property-footer"><div class="price">$189 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="/properties/cedar-hollow-cabin">View Stay</a></div>
         </div>
       </div>
@@ -134,6 +137,7 @@ const html = `<header class="site-header">
           <div class="property-loc">📍 Westport, Washington</div>
           <h2>Pinecrest Lodge</h2>
           <div class="property-meta">6 Bed · 4 Bath · Sleeps 12</div>
+          <p class="property-desc">A spacious six-bedroom lodge built for large groups, with room to spread out and easy access to Westport's beaches and marina.</p>
           <div class="property-footer"><div class="price">$520 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
       </div>
@@ -144,6 +148,7 @@ const html = `<header class="site-header">
           <div class="property-loc">📍 Princeville, Kauai, Hawaii</div>
           <h2>Firelight Cottage</h2>
           <div class="property-meta">3 Bed · 2 Bath · Sleeps 8</div>
+          <p class="property-desc">A tropical garden retreat with a private hot tub, tucked into Princeville and just minutes from Hanalei Bay's turquoise waters.</p>
           <div class="property-footer"><div class="price">$415 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="/properties/firelight-cottage">View Stay</a></div>
         </div>
       </div>
@@ -154,6 +159,7 @@ const html = `<header class="site-header">
           <div class="property-loc">📍 Kapalua, Maui, Hawaii</div>
           <h2>Kapalua Sunset Bungalow</h2>
           <div class="property-meta">2 Bed · 2 Bath · Sleeps 4</div>
+          <p class="property-desc">A breezy two-bedroom bungalow near Kapalua Beach, framed by golden-hour views and a short stroll to West Maui's best snorkeling.</p>
           <div class="property-footer"><div class="price">$329 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
       </div>
@@ -164,6 +170,7 @@ const html = `<header class="site-header">
           <div class="property-loc">📍 North Shore, Oahu, Hawaii</div>
           <h2>Hale Nalu Beach House</h2>
           <div class="property-meta">3 Bed · 2 Bath · Sleeps 6</div>
+          <p class="property-desc">A classic North Shore beach house steps from Haleiwa's famous surf breaks, with laid-back island charm throughout.</p>
           <div class="property-footer"><div class="price">$398 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
       </div>
@@ -174,6 +181,7 @@ const html = `<header class="site-header">
           <div class="property-loc">📍 Kailua, Oahu, Hawaii</div>
           <h2>Lanikai Palms Cottage</h2>
           <div class="property-meta">2 Bed · 1 Bath · Sleeps 4</div>
+          <p class="property-desc">A romantic cottage near Lanikai Beach, often ranked among the world's most beautiful — perfect for couples craving quiet mornings by the water.</p>
           <div class="property-footer"><div class="price">$284 <span>/ night</span></div><a class="btn btn-outline btn-sm" href="#">View Stay</a></div>
         </div>
       </div>
