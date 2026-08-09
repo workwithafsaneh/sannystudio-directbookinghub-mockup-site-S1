@@ -176,7 +176,7 @@ const html = `<header class="site-header">
       </div>
 
       <div class="property-card" data-region="hawaii" data-guests="4" data-price="284" data-rating="4.90">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Beach%20-%20panoramio.jpg?width=700')" role="img" aria-label="Lanikai Beach, Kailua, Oahu"><span class="card-tag">Couples Escape</span><span class="card-rating">★ 4.90</span></div>
+        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Beach%20-%20panoramio.jpg?width=600')" role="img" aria-label="Lanikai Beach, Kailua, Oahu"><span class="card-tag">Couples Escape</span><span class="card-rating">★ 4.90</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Kailua, Oahu, Hawaii</div>
           <h2>Lanikai Palms Cottage</h2>

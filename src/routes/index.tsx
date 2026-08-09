@@ -339,18 +339,18 @@ const html = `<script type="application/ld+json">
   <div class="destination-block">
     <div class="destination-label"><span class="region-dot wa"></span>Washington Coast</div>
     <div class="destination-grid">
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1653367621927-ccd602d03b23?auto=format&fit=crop&w=800&h=600&q=80')" role="img" aria-label="Driftwood Dunes Park boardwalk trails"><span class="d-title">Driftwood Dunes Park</span><span class="d-sub">Boardwalk trails · 10 min drive</span></div>
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1518739745383-0ef26e9dd7fd?auto=format&fit=crop&w=800&h=600&q=80')" role="img" aria-label="Tidewater Coffee Roasters, harbor view coffee shop"><span class="d-title">Tidewater Coffee Roasters</span><span class="d-sub">Small-batch, harbor view · 6 min drive</span></div>
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=600&q=80')" role="img" aria-label="The Salted Plank wood-fired seafood restaurant"><span class="d-title">The Salted Plank</span><span class="d-sub">Wood-fired seafood · 8 min drive</span></div>
+      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1653367621927-ccd602d03b23?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Driftwood Dunes Park boardwalk trails"><span class="d-title">Driftwood Dunes Park</span><span class="d-sub">Boardwalk trails · 10 min drive</span></div>
+      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1518739745383-0ef26e9dd7fd?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Tidewater Coffee Roasters, harbor view coffee shop"><span class="d-title">Tidewater Coffee Roasters</span><span class="d-sub">Small-batch, harbor view · 6 min drive</span></div>
+      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="The Salted Plank wood-fired seafood restaurant"><span class="d-title">The Salted Plank</span><span class="d-sub">Wood-fired seafood · 8 min drive</span></div>
     </div>
   </div>
 
   <div class="destination-block">
     <div class="destination-label"><span class="region-dot hi"></span>Hawaii</div>
     <div class="destination-grid">
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1629126799597-944b6e3150ca?auto=format&fit=crop&w=800&h=600&q=80')" role="img" aria-label="Hidden lava-rock tide pools, Hawaii"><span class="d-title">Hidden Tide Pools</span><span class="d-sub">Quiet lava-rock coves · short walk</span></div>
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1771154141872-e5ad3905a385?auto=format&fit=crop&w=800&h=600&q=80')" role="img" aria-label="Local plate lunch spot near the harbor"><span class="d-title">Harborside Plate Lunch</span><span class="d-sub">Local-style, family run · 5 min drive</span></div>
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1629118753599-6f0a473ba412?auto=format&fit=crop&w=800&h=600&q=80')" role="img" aria-label="Calm water snorkeling cove at sunset"><span class="d-title">Sunset Snorkel Cove</span><span class="d-sub">Calm-water reef · 10 min drive</span></div>
+      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1629126799597-944b6e3150ca?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Hidden lava-rock tide pools, Hawaii"><span class="d-title">Hidden Tide Pools</span><span class="d-sub">Quiet lava-rock coves · short walk</span></div>
+      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1771154141872-e5ad3905a385?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Local plate lunch spot near the harbor"><span class="d-title">Harborside Plate Lunch</span><span class="d-sub">Local-style, family run · 5 min drive</span></div>
+      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1629118753599-6f0a473ba412?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Calm water snorkeling cove at sunset"><span class="d-title">Sunset Snorkel Cove</span><span class="d-sub">Calm-water reef · 10 min drive</span></div>
     </div>
   </div>
 </section>
@@ -553,16 +553,18 @@ const script = `/* ---------- Mobile nav ---------- */
   });
 
   /* ---------- Guest Stories carousel: slow auto-slide + side arrows ---------- */
-  /* Deferred until the browser is idle so it can never compete with, or get
-     mistaken for, the page's initial paint / LCP work. */
+  /* Autoplay only ever starts once the carousel is actually scrolled into
+     view (IntersectionObserver). It can never run during initial page load,
+     so it can never compete with, or be mistaken for, LCP/paint work. */
   function initReviewCarousel(){
     const track = document.getElementById('reviewTrack');
+    const section = document.getElementById('reviewMarquee');
     if(!track) return;
     const cardStep = 362;
     let timer = null;
+    let started = false;
 
     function advance(){
-      // cache reads once per call instead of re-querying layout repeatedly
       const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 10;
       if(atEnd){
         track.scrollTo({ left: 0, behavior: 'smooth' });
@@ -570,8 +572,9 @@ const script = `/* ---------- Mobile nav ---------- */
         track.scrollBy({ left: cardStep, behavior: 'smooth' });
       }
     }
-    function startAutoplay(){ timer = setInterval(advance, 4500); }
-    function resetAutoplay(){ clearInterval(timer); startAutoplay(); }
+    function startAutoplay(){ if(timer) return; timer = setInterval(advance, 4500); }
+    function stopAutoplay(){ clearInterval(timer); timer = null; }
+    function resetAutoplay(){ stopAutoplay(); startAutoplay(); }
 
     window.reviewNav = function(dir){
       if(dir < 0){
@@ -583,19 +586,27 @@ const script = `/* ---------- Mobile nav ---------- */
       } else {
         advance();
       }
-      resetAutoplay();
+      if(started) resetAutoplay();
     };
-    track.addEventListener('mouseenter', function(){ clearInterval(timer); });
-    track.addEventListener('mouseleave', function(){ resetAutoplay(); });
-    track.addEventListener('touchstart', function(){ clearInterval(timer); }, { passive: true });
-    startAutoplay();
+    track.addEventListener('mouseenter', stopAutoplay);
+    track.addEventListener('mouseleave', function(){ if(started) startAutoplay(); });
+    track.addEventListener('touchstart', stopAutoplay, { passive: true });
+
+    if('IntersectionObserver' in window && section){
+      const io = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting && !started){
+            started = true;
+            startAutoplay();
+            io.disconnect();
+          }
+        });
+      }, { threshold: 0.4 });
+      io.observe(section);
+    }
   }
 
-  if('requestIdleCallback' in window){
-    requestIdleCallback(initReviewCarousel, { timeout: 4000 });
-  } else {
-    setTimeout(initReviewCarousel, 2000);
-  }`;
+  initReviewCarousel();`;
 
 function HomePage() {
   return <PageShell html={html} script={script} />;
