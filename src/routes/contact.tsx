@@ -121,7 +121,7 @@ const html = `<header class="site-header">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h5 style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></h5>
+        <p class="footer-h" style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></p>
         <p>Thoughtfully curated luxury vacation homes across Washington and Hawaii, designed for comfort, adventure, and unforgettable memories.</p>
         <div class="footer-social" aria-label="Follow Savage Vacations on social media">
           <a href="#" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.6h2.6l.4-3h-3v-1.9c0-.9.2-1.5 1.5-1.5h1.6V4.1C15.9 4 15 4 14 4c-2.2 0-3.7 1.3-3.7 3.8V10H7.7v3h2.6V21h3.2z"/></svg></a>
@@ -130,9 +130,9 @@ const html = `<header class="site-header">
           <a href="#" class="social-icon" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22 12s0-3-.4-4.4a2.9 2.9 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.6a2.9 2.9 0 0 0-2 2C2 9 2 12 2 12s0 3 .4 4.4a2.9 2.9 0 0 0 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.6a2.9 2.9 0 0 0 2-2C22 15 22 12 22 12zM10 15V9l5.2 3-5.2 3z"/></svg></a>
         </div>
       </div>
-      <div><h5>Explore</h5><a href="/">Home</a><a href="/properties">Properties</a><a href="/#why-direct">Why Book Direct</a><a href="/#faq">FAQ</a></div>
-      <div><h5>Contact</h5><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a></div>
-      <div><h5>Newsletter</h5><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
+      <div><p class="footer-h">Explore</p><a href="/">Home</a><a href="/properties">Properties</a><a href="/#why-direct">Why Book Direct</a><a href="/#faq">FAQ</a></div>
+      <div><p class="footer-h">Contact</p><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a></div>
+      <div><p class="footer-h">Newsletter</p><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Savage Vacations. All rights reserved.</span>

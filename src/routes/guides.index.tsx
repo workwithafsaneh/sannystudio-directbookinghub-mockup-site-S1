@@ -48,7 +48,7 @@ const html = `<header class="site-header">
 
   <a href="/guides/driftwood-dunes-guide" style="display:block;">
     <div class="featured-post">
-      <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20shelter%20at%20Ocean%20Shores%2C%20WA%2002.jpg?width=900')" role="img" aria-label="Boardwalk at Driftwood Dunes, Ocean Shores">
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20shelter%20at%20Ocean%20Shores%2C%20WA%2002.jpg?width=900" alt="Boardwalk at Driftwood Dunes, Ocean Shores" loading="lazy" decoding="async">
         <span class="post-tag on-photo">Washington Coast</span>
       </div>
       <div class="featured-body">
@@ -73,7 +73,7 @@ const html = `<header class="site-header">
   <div class="post-grid" id="postGrid">
 
     <a href="/guides/driftwood-dunes-guide" class="post-card" data-category="washington things-to-do">
-      <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Westport%2C%20WA%20-%20beach%20scene.jpg?width=700')" role="img" aria-label="Westport, Washington waterfront"></div>
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Westport%2C%20WA%20-%20beach%20scene.jpg?width=700" alt="Westport, Washington waterfront" loading="lazy" decoding="async"></div>
       <div class="post-body">
         <span class="post-tag">Things To Do</span>
         <h3>5 Things To Do Near Westport Before You Even Unpack</h3>
@@ -83,7 +83,7 @@ const html = `<header class="site-header">
     </a>
 
     <a href="/guides/driftwood-dunes-guide" class="post-card" data-category="washington eats">
-      <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Ultimate%20Seafood%20Platter%20at%20Landry%27s%20Seafood%20House.jpg?width=700')" role="img" aria-label="Fresh seafood platter"></div>
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Ultimate%20Seafood%20Platter%20at%20Landry%27s%20Seafood%20House.jpg?width=700" alt="Fresh seafood platter" loading="lazy" decoding="async"></div>
       <div class="post-body">
         <span class="post-tag">Local Eats</span>
         <h3>Where to Eat in Long Beach: 6 Spots We Actually Recommend</h3>
@@ -93,7 +93,7 @@ const html = `<header class="site-header">
     </a>
 
     <a href="/guides/driftwood-dunes-guide" class="post-card" data-category="hawaii things-to-do">
-      <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Haleiwa%20Beach%20and%20Maeaea%20Beach%20-%20Haleiwa%20Oahu%20Hawaii.jpg?width=700')" role="img" aria-label="Haleiwa Beach, North Shore Oahu"></div>
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Haleiwa%20Beach%20and%20Maeaea%20Beach%20-%20Haleiwa%20Oahu%20Hawaii.jpg?width=700" alt="Haleiwa Beach, North Shore Oahu" loading="lazy" decoding="async"></div>
       <div class="post-body">
         <span class="post-tag">Things To Do</span>
         <h3>Your First 48 Hours on Oahu's North Shore</h3>
@@ -103,7 +103,7 @@ const html = `<header class="site-header">
     </a>
 
     <a href="/guides/driftwood-dunes-guide" class="post-card" data-category="tips">
-      <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20luggages%20%28Unsplash%29.jpg?width=700')" role="img" aria-label="Packed suitcases and travel bags"></div>
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20luggages%20%28Unsplash%29.jpg?width=700" alt="Packed suitcases and travel bags" loading="lazy" decoding="async"></div>
       <div class="post-body">
         <span class="post-tag">Travel Tips</span>
         <h3>Packing for the PNW Coast: What You Actually Need</h3>
@@ -113,7 +113,7 @@ const html = `<header class="site-header">
     </a>
 
     <a href="/guides/driftwood-dunes-guide" class="post-card" data-category="washington things-to-do">
-      <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Rocky%20coast%20tidepools%20%28Unsplash%29.jpg?width=700')" role="img" aria-label="Rocky tide pools on the Washington coast"></div>
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Rocky%20coast%20tidepools%20%28Unsplash%29.jpg?width=700" alt="Rocky tide pools on the Washington coast" loading="lazy" decoding="async"></div>
       <div class="post-body">
         <span class="post-tag">Things To Do</span>
         <h3>The Best Tide Pools on the Washington Coast (And When to Go)</h3>
@@ -123,7 +123,7 @@ const html = `<header class="site-header">
     </a>
 
     <a href="/guides/driftwood-dunes-guide" class="post-card" data-category="hawaii eats">
-      <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Hanalei%20Beach%20at%20Sunset%20-%20Pacific%20Ocean%20-%20Kauai%20-%20Hawaii.jpg?width=700')" role="img" aria-label="Hawaii beach at sunset"></div>
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Hanalei%20Beach%20at%20Sunset%20-%20Pacific%20Ocean%20-%20Kauai%20-%20Hawaii.jpg?width=700" alt="Hawaii beach at sunset" loading="lazy" decoding="async"></div>
       <div class="post-body">
         <span class="post-tag">Local Eats</span>
         <h3>Maui After Sunset: Our Favorite Quiet Evenings on Kapalua</h3>
@@ -133,7 +133,7 @@ const html = `<header class="site-header">
     </a>
 
     <a href="/guides/driftwood-dunes-guide" class="post-card" data-category="tips">
-      <div class="ph-photo has-photo" style="background-image:var(--img-ocean-blvd-04), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Deck at 18 Ocean Blvd, booked direct with Savage Vacations"></div>
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="/images/properties/ocean-blvd/04-deck-firepit.webp" alt="Deck at 18 Ocean Blvd, booked direct with Savage Vacations" loading="lazy" decoding="async"></div>
       <div class="post-body">
         <span class="post-tag">Travel Tips</span>
         <h3>How to Book Direct and Actually Save Money</h3>
@@ -163,7 +163,7 @@ const html = `<header class="site-header">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h5 style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></h5>
+        <p class="footer-h" style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></p>
         <p>Thoughtfully curated luxury vacation homes across Washington and Hawaii, designed for comfort, adventure, and unforgettable memories.</p>
         <div class="footer-social" aria-label="Follow Savage Vacations on social media">
           <a href="#" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.6h2.6l.4-3h-3v-1.9c0-.9.2-1.5 1.5-1.5h1.6V4.1C15.9 4 15 4 14 4c-2.2 0-3.7 1.3-3.7 3.8V10H7.7v3h2.6V21h3.2z"/></svg></a>
@@ -172,9 +172,9 @@ const html = `<header class="site-header">
           <a href="#" class="social-icon" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22 12s0-3-.4-4.4a2.9 2.9 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.6a2.9 2.9 0 0 0-2 2C2 9 2 12 2 12s0 3 .4 4.4a2.9 2.9 0 0 0 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.6a2.9 2.9 0 0 0 2-2C22 15 22 12 22 12zM10 15V9l5.2 3-5.2 3z"/></svg></a>
         </div>
       </div>
-      <div><h5>Explore</h5><a href="/">Home</a><a href="/properties">Properties</a><a href="/guides">Guides</a><a href="/#faq">FAQ</a></div>
-      <div><h5>Contact</h5><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a></div>
-      <div><h5>Newsletter</h5><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
+      <div><p class="footer-h">Explore</p><a href="/">Home</a><a href="/properties">Properties</a><a href="/guides">Guides</a><a href="/#faq">FAQ</a></div>
+      <div><p class="footer-h">Contact</p><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a></div>
+      <div><p class="footer-h">Newsletter</p><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Savage Vacations. All rights reserved.</span>

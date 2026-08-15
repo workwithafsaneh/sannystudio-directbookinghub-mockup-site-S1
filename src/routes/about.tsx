@@ -52,7 +52,7 @@ const html = `<header class="site-header">
       <p>It began in 2019, when Mark and Elena Savage started renting out their own family home on the Washington coast during the off-season. What they noticed surprised them: guests didn't just want a clean, well-located house — they wanted to feel looked after. A recommendation for dinner. A quick reply when a question came up. Someone who actually knew the property answering the phone.</p>
       <p>That guest-first instinct became the whole business. Today, Savage Vacations manages a small, deliberately curated collection of homes across the Washington coast and Hawaii — each one personally vetted, each one booked direct, with a real person on the other end of every message.</p>
     </div>
-    <div class="ph-photo" data-photo="The original Ocean Shores property, 2019"></div>
+    <div class="ph-photo" data-photo="The original Ocean Shores property, 2019"><img class="ph-photo-img" src="/images/properties/ocean-blvd/01-exterior-dusk.webp" alt="The original Ocean Shores property, 2019" loading="lazy" decoding="async"></div>
   </div>
 </section>
 
@@ -124,12 +124,12 @@ const html = `<header class="site-header">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h5 style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></h5>
+        <p class="footer-h" style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></p>
         <p>Thoughtfully curated luxury vacation homes across Washington and Hawaii, designed for comfort, adventure, and unforgettable memories.</p>
       </div>
-      <div><h5>Explore</h5><a href="/">Home</a><a href="/properties">Properties</a><a href="/guides">Guides</a><a href="/reviews">Reviews</a><a href="/#faq">FAQ</a></div>
-      <div><h5>Contact</h5><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a><a href="/#contact">Contact Us</a></div>
-      <div><h5>Newsletter</h5><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
+      <div><p class="footer-h">Explore</p><a href="/">Home</a><a href="/properties">Properties</a><a href="/guides">Guides</a><a href="/reviews">Reviews</a><a href="/#faq">FAQ</a></div>
+      <div><p class="footer-h">Contact</p><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a><a href="/#contact">Contact Us</a></div>
+      <div><p class="footer-h">Newsletter</p><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Savage Vacations. All rights reserved.</span>

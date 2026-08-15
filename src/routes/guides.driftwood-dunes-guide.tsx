@@ -67,7 +67,7 @@ const html = `<script type="application/ld+json">
     <div class="post-meta">By Savage Vacations Team · Published June 12, 2026 · 6 min read</div>
   </section>
 
-  <div class="ph-photo hero-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20shelter%20at%20Ocean%20Shores%2C%20WA%2002.jpg?width=1200')" role="img" aria-label="Driftwood Dunes boardwalk at low tide"></div>
+  <div class="ph-photo hero-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20shelter%20at%20Ocean%20Shores%2C%20WA%2002.jpg?width=1200" alt="Driftwood Dunes boardwalk at low tide" loading="eager" decoding="async" fetchpriority="high"></div>
 
   <p>Ten minutes from 18 Ocean Blvd, past the last row of beach houses, the road narrows and the trees open up onto a stretch of boardwalk most first-time visitors drive straight past. Driftwood Dunes Park isn't on the postcards — and that's exactly why our guests keep coming back to it.</p>
 
@@ -97,7 +97,7 @@ const html = `<script type="application/ld+json">
 
   <a href="/properties/18-ocean-blvd" style="text-decoration:none;">
     <div class="stay-callout">
-      <div class="ph-photo has-photo" style="background-image:var(--img-ocean-blvd-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="18 Ocean Blvd"></div>
+      <div class="ph-photo has-photo"><img class="ph-photo-img" src="/images/properties/ocean-blvd/01-exterior-dusk.webp" alt="18 Ocean Blvd" loading="lazy" decoding="async"></div>
       <div class="stay-callout-body">
         <span class="label">Where to Stay Nearby</span>
         <h3>18 Ocean Blvd — Coastal Retreat</h3>
@@ -119,19 +119,19 @@ const html = `<script type="application/ld+json">
   <div class="related-grid">
     <a href="/guides" style="text-decoration:none;">
       <div class="related-card">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Rocky%20coast%20tidepools%20%28Unsplash%29.jpg?width=500')" role="img" aria-label="Tide pools on the Washington coast"></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Rocky%20coast%20tidepools%20%28Unsplash%29.jpg?width=500" alt="Tide pools on the Washington coast" loading="lazy" decoding="async"></div>
         <div class="related-body"><h4>The Best Tide Pools on the Washington Coast</h4></div>
       </div>
     </a>
     <a href="/guides" style="text-decoration:none;">
       <div class="related-card">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Ultimate%20Seafood%20Platter%20at%20Landry%27s%20Seafood%20House.jpg?width=500')" role="img" aria-label="Seafood in Long Beach, Washington"></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Ultimate%20Seafood%20Platter%20at%20Landry%27s%20Seafood%20House.jpg?width=500" alt="Seafood in Long Beach, Washington" loading="lazy" decoding="async"></div>
         <div class="related-body"><h4>Where to Eat in Long Beach: 6 Spots We Recommend</h4></div>
       </div>
     </a>
     <a href="/guides" style="text-decoration:none;">
       <div class="related-card">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20luggages%20%28Unsplash%29.jpg?width=500')" role="img" aria-label="Packing for a coastal trip"></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Stack%20of%20luggages%20%28Unsplash%29.jpg?width=500" alt="Packing for a coastal trip" loading="lazy" decoding="async"></div>
         <div class="related-body"><h4>Packing for the PNW Coast: What You Actually Need</h4></div>
       </div>
     </a>
@@ -144,7 +144,7 @@ const html = `<script type="application/ld+json">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h5 style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></h5>
+        <p class="footer-h" style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></p>
         <p>Thoughtfully curated luxury vacation homes across Washington and Hawaii, designed for comfort, adventure, and unforgettable memories.</p>
         <div class="footer-social" aria-label="Follow Savage Vacations on social media">
           <a href="#" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.6h2.6l.4-3h-3v-1.9c0-.9.2-1.5 1.5-1.5h1.6V4.1C15.9 4 15 4 14 4c-2.2 0-3.7 1.3-3.7 3.8V10H7.7v3h2.6V21h3.2z"/></svg></a>
@@ -153,9 +153,9 @@ const html = `<script type="application/ld+json">
           <a href="#" class="social-icon" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22 12s0-3-.4-4.4a2.9 2.9 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.6a2.9 2.9 0 0 0-2 2C2 9 2 12 2 12s0 3 .4 4.4a2.9 2.9 0 0 0 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.6a2.9 2.9 0 0 0 2-2C22 15 22 12 22 12zM10 15V9l5.2 3-5.2 3z"/></svg></a>
         </div>
       </div>
-      <div><h5>Explore</h5><a href="/">Home</a><a href="/properties">Properties</a><a href="/guides">Guides</a><a href="/#faq">FAQ</a></div>
-      <div><h5>Contact</h5><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a></div>
-      <div><h5>Newsletter</h5><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
+      <div><p class="footer-h">Explore</p><a href="/">Home</a><a href="/properties">Properties</a><a href="/guides">Guides</a><a href="/#faq">FAQ</a></div>
+      <div><p class="footer-h">Contact</p><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a></div>
+      <div><p class="footer-h">Newsletter</p><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Savage Vacations. All rights reserved.</span>

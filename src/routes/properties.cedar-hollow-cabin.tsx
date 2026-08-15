@@ -102,11 +102,11 @@ const html = `<script type="application/ld+json">
 
 <div class="container gallery">
   <div class="gallery-grid">
-    <div class="ph-photo main has-photo" style="background-image:var(--img-cedar-hollow-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Cedar Hollow Cabin living area and kitchen" onclick="openLightbox(0)"></div>
+    <div class="ph-photo main has-photo" onclick="openLightbox(0)"><img class="ph-photo-img" src="/images/properties/cedar-hollow/01-living-kitchen.webp" alt="Cedar Hollow Cabin living area and kitchen" loading="eager" decoding="async" fetchpriority="high"></div>
     <div class="thumb-col">
-      <div class="ph-photo has-photo" style="background-image:var(--img-cedar-hollow-02), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Rustic kitchen with corrugated-metal accents" onclick="openLightbox(1)"></div>
-      <div class="ph-photo has-photo" style="background-image:var(--img-cedar-hollow-03), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Private hot tub under the forest gazebo" onclick="openLightbox(2)"></div>
-      <div class="ph-photo has-photo" style="background-image:var(--img-cedar-hollow-04), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Grassy yard among the evergreens" onclick="openLightbox(3)"></div>
+      <div class="ph-photo has-photo" onclick="openLightbox(1)"><img class="ph-photo-img" src="/images/properties/cedar-hollow/02-kitchen-detail.webp" alt="Rustic kitchen with corrugated-metal accents" loading="lazy" decoding="async"></div>
+      <div class="ph-photo has-photo" onclick="openLightbox(2)"><img class="ph-photo-img" src="/images/properties/cedar-hollow/03-hot-tub-gazebo.webp" alt="Private hot tub under the forest gazebo" loading="lazy" decoding="async"></div>
+      <div class="ph-photo has-photo" onclick="openLightbox(3)"><img class="ph-photo-img" src="/images/properties/cedar-hollow/04-yard.jpg" alt="Grassy yard among the evergreens" loading="lazy" decoding="async"></div>
     </div>
     <button class="view-all-btn" onclick="openLightbox(0)">View all photos</button>
   </div>
@@ -216,13 +216,13 @@ const html = `<script type="application/ld+json">
 
       <section class="block">
         <div class="attraction-grid">
-          <div class="ph-photo attraction-card has-photo" style="align-items:flex-start; background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Leavenworth%2C%20WA%20-%20Obertal%20Mall%20and%20Inn.jpg?width=600')" role="img" aria-label="Bavarian-style village street in Leavenworth">
+          <div class="ph-photo attraction-card has-photo" style="align-items:flex-start"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Leavenworth%2C%20WA%20-%20Obertal%20Mall%20and%20Inn.jpg?width=600" alt="Bavarian-style village street in Leavenworth" loading="lazy" decoding="async">
             <span class="tag">Restaurant</span>
           </div>
-          <div class="ph-photo attraction-card has-photo" style="align-items:flex-start; background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Inside%20Bridgehead%20Coffee%20Shop%20%2829685669166%29.jpg?width=600')" role="img" aria-label="Cozy bakery-cafe interior">
+          <div class="ph-photo attraction-card has-photo" style="align-items:flex-start"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Inside%20Bridgehead%20Coffee%20Shop%20%2829685669166%29.jpg?width=600" alt="Cozy bakery-cafe interior" loading="lazy" decoding="async">
             <span class="tag">Coffee</span>
           </div>
-          <div class="ph-photo attraction-card has-photo" style="align-items:flex-start; background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Icicle%20Creek%20%28Washington%29.JPG?width=600')" role="img" aria-label="Icicle Creek forest trail">
+          <div class="ph-photo attraction-card has-photo" style="align-items:flex-start"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Icicle%20Creek%20%28Washington%29.JPG?width=600" alt="Icicle Creek forest trail" loading="lazy" decoding="async">
             <span class="tag">Park</span>
           </div>
         </div>
@@ -294,7 +294,7 @@ const html = `<script type="application/ld+json">
         <div class="similar-grid">
           <a href="/properties/18-ocean-blvd" style="text-decoration:none; color:inherit;">
           <div class="similar-card">
-            <div class="ph-photo has-photo" style="background-image:var(--img-ocean-blvd-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="18 Ocean Blvd"></div>
+            <div class="ph-photo has-photo"><img class="ph-photo-img" src="/images/properties/ocean-blvd/01-exterior-dusk.webp" alt="18 Ocean Blvd" loading="lazy" decoding="async"></div>
             <div class="similar-body">
               <div><h4>18 Ocean Blvd — Coastal Retreat</h4><span class="loc">📍 Ocean Shores, Washington · ★4.98</span></div>
               <span class="price">$412/night</span>
@@ -303,7 +303,7 @@ const html = `<script type="application/ld+json">
           </a>
           <a href="/properties/firelight-cottage" style="text-decoration:none; color:inherit;">
           <div class="similar-card">
-            <div class="ph-photo has-photo" style="background-image:var(--img-firelight-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Firelight Cottage"></div>
+            <div class="ph-photo has-photo"><img class="ph-photo-img" src="/images/properties/firelight/01-hot-tub-garden.webp" alt="Firelight Cottage" loading="lazy" decoding="async"></div>
             <div class="similar-body">
               <div><h4>Firelight Cottage</h4><span class="loc">📍 Princeville, Kauai, HI · ★4.95</span></div>
               <span class="price">$415/night</span>
@@ -317,7 +317,7 @@ const html = `<script type="application/ld+json">
 
     <aside class="booking-card" id="booking">
       <div class="booking-head">
-        <div class="ph-photo booking-thumb has-photo" style="background-image:var(--img-cedar-hollow-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Cedar Hollow Cabin"></div>
+        <div class="ph-photo booking-thumb has-photo"><img class="ph-photo-img" src="/images/properties/cedar-hollow/01-living-kitchen.webp" alt="Cedar Hollow Cabin" loading="lazy" decoding="async"></div>
         <div>
           <div class="booking-price">$189 <span>/ night</span></div>
           <div class="booking-rating">★ 4.92 (86)</div>
@@ -412,7 +412,7 @@ const html = `<script type="application/ld+json">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h5 style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></h5>
+        <p class="footer-h" style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></p>
         <p>Handpicked luxury vacation homes across the Washington coast and Hawaii, designed for unforgettable experiences.</p>
         <div class="footer-social" aria-label="Follow Savage Vacations on social media">
           <a href="#" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.6h2.6l.4-3h-3v-1.9c0-.9.2-1.5 1.5-1.5h1.6V4.1C15.9 4 15 4 14 4c-2.2 0-3.7 1.3-3.7 3.8V10H7.7v3h2.6V21h3.2z"/></svg></a>
@@ -422,15 +422,15 @@ const html = `<script type="application/ld+json">
         </div>
       </div>
       <div>
-        <h5>Quick Links</h5>
+        <p class="footer-h">Quick Links</p>
         <a href="/">Home</a><a href="/properties">Properties</a><a href="/#faq">FAQ</a>
       </div>
       <div>
-        <h5>Contact</h5>
+        <p class="footer-h">Contact</p>
         <a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a>
       </div>
       <div>
-        <h5>Newsletter</h5>
+        <p class="footer-h">Newsletter</p>
         <p>Join our list for exclusive stays &amp; early access.</p>
       </div>
     </div>

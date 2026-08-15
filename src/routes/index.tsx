@@ -209,7 +209,7 @@ const html = `<script type="application/ld+json">
   </div>
   <div class="property-grid">
     <div class="property-card">
-      <div class="ph-photo" style="background-image:var(--img-18ocean), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="18 Ocean Blvd coastal retreat, exterior at dusk"><span class="card-tag">Signature Stay</span><span class="card-rating">★ 4.98</span></div>
+      <div class="ph-photo"><img class="ph-photo-img" src="/images/properties/ocean-blvd/01-exterior-dusk.webp" alt="18 Ocean Blvd coastal retreat, exterior at dusk" loading="lazy" decoding="async"><span class="card-tag">Signature Stay</span><span class="card-rating">★ 4.98</span></div>
       <div class="property-body">
         <div class="property-loc">📍 Ocean Shores, Washington</div>
         <h3>18 Ocean Blvd — Coastal Retreat</h3>
@@ -221,7 +221,7 @@ const html = `<script type="application/ld+json">
       </div>
     </div>
     <div class="property-card">
-      <div class="ph-photo" style="background-image:var(--img-cedar), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Cedar Hollow Cabin, Westport Washington"><span class="card-tag">Family Favorite</span><span class="card-rating">★ 4.92</span></div>
+      <div class="ph-photo"><img class="ph-photo-img" src="/images/properties/cedar-hollow/01-living-kitchen.webp" alt="Cedar Hollow Cabin, Westport Washington" loading="lazy" decoding="async"><span class="card-tag">Family Favorite</span><span class="card-rating">★ 4.92</span></div>
       <div class="property-body">
         <div class="property-loc">📍 Westport, Washington</div>
         <h3>Cedar Hollow Cabin</h3>
@@ -233,7 +233,7 @@ const html = `<script type="application/ld+json">
       </div>
     </div>
     <div class="property-card">
-      <div class="ph-photo" style="background-image:var(--img-firelight), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Firelight Cottage, Long Beach Washington"><span class="card-tag">Couples Escape</span><span class="card-rating">★ 4.95</span></div>
+      <div class="ph-photo"><img class="ph-photo-img" src="/images/properties/firelight/01-hot-tub-garden.webp" alt="Firelight Cottage, Long Beach Washington" loading="lazy" decoding="async"><span class="card-tag">Couples Escape</span><span class="card-rating">★ 4.95</span></div>
       <div class="property-body">
         <div class="property-loc">📍 Long Beach, Washington</div>
         <h3>Firelight Cottage</h3>
@@ -339,18 +339,18 @@ const html = `<script type="application/ld+json">
   <div class="destination-block">
     <div class="destination-label"><span class="region-dot wa"></span>Washington Coast</div>
     <div class="destination-grid">
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1653367621927-ccd602d03b23?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Driftwood Dunes Park boardwalk trails"><span class="d-title">Driftwood Dunes Park</span><span class="d-sub">Boardwalk trails · 10 min drive</span></div>
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1518739745383-0ef26e9dd7fd?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Tidewater Coffee Roasters, harbor view coffee shop"><span class="d-title">Tidewater Coffee Roasters</span><span class="d-sub">Small-batch, harbor view · 6 min drive</span></div>
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="The Salted Plank wood-fired seafood restaurant"><span class="d-title">The Salted Plank</span><span class="d-sub">Wood-fired seafood · 8 min drive</span></div>
+      <div class="ph-photo destination-card"><img class="ph-photo-img" src="https://images.unsplash.com/photo-1653367621927-ccd602d03b23?auto=format&fit=crop&w=800&h=600&q=80&fm=webp" alt="Driftwood Dunes Park boardwalk trails" loading="lazy" decoding="async"><div class="ph-photo-overlay" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%)" aria-hidden="true"></div><span class="d-title">Driftwood Dunes Park</span><span class="d-sub">Boardwalk trails · 10 min drive</span></div>
+      <div class="ph-photo destination-card"><img class="ph-photo-img" src="https://images.unsplash.com/photo-1518739745383-0ef26e9dd7fd?auto=format&fit=crop&w=800&h=600&q=80&fm=webp" alt="Tidewater Coffee Roasters, harbor view coffee shop" loading="lazy" decoding="async"><div class="ph-photo-overlay" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%)" aria-hidden="true"></div><span class="d-title">Tidewater Coffee Roasters</span><span class="d-sub">Small-batch, harbor view · 6 min drive</span></div>
+      <div class="ph-photo destination-card"><img class="ph-photo-img" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&h=600&q=80&fm=webp" alt="The Salted Plank wood-fired seafood restaurant" loading="lazy" decoding="async"><div class="ph-photo-overlay" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%)" aria-hidden="true"></div><span class="d-title">The Salted Plank</span><span class="d-sub">Wood-fired seafood · 8 min drive</span></div>
     </div>
   </div>
 
   <div class="destination-block">
     <div class="destination-label"><span class="region-dot hi"></span>Hawaii</div>
     <div class="destination-grid">
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1629126799597-944b6e3150ca?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Hidden lava-rock tide pools, Hawaii"><span class="d-title">Hidden Tide Pools</span><span class="d-sub">Quiet lava-rock coves · short walk</span></div>
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1771154141872-e5ad3905a385?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Local plate lunch spot near the harbor"><span class="d-title">Harborside Plate Lunch</span><span class="d-sub">Local-style, family run · 5 min drive</span></div>
-      <div class="ph-photo destination-card" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%), url('https://images.unsplash.com/photo-1629118753599-6f0a473ba412?auto=format&fit=crop&w=800&h=600&q=80&fm=webp')" role="img" aria-label="Calm water snorkeling cove at sunset"><span class="d-title">Sunset Snorkel Cove</span><span class="d-sub">Calm-water reef · 10 min drive</span></div>
+      <div class="ph-photo destination-card"><img class="ph-photo-img" src="https://images.unsplash.com/photo-1629126799597-944b6e3150ca?auto=format&fit=crop&w=800&h=600&q=80&fm=webp" alt="Hidden lava-rock tide pools, Hawaii" loading="lazy" decoding="async"><div class="ph-photo-overlay" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%)" aria-hidden="true"></div><span class="d-title">Hidden Tide Pools</span><span class="d-sub">Quiet lava-rock coves · short walk</span></div>
+      <div class="ph-photo destination-card"><img class="ph-photo-img" src="https://images.unsplash.com/photo-1771154141872-e5ad3905a385?auto=format&fit=crop&w=800&h=600&q=80&fm=webp" alt="Local plate lunch spot near the harbor" loading="lazy" decoding="async"><div class="ph-photo-overlay" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%)" aria-hidden="true"></div><span class="d-title">Harborside Plate Lunch</span><span class="d-sub">Local-style, family run · 5 min drive</span></div>
+      <div class="ph-photo destination-card"><img class="ph-photo-img" src="https://images.unsplash.com/photo-1629118753599-6f0a473ba412?auto=format&fit=crop&w=800&h=600&q=80&fm=webp" alt="Calm water snorkeling cove at sunset" loading="lazy" decoding="async"><div class="ph-photo-overlay" style="background-image:linear-gradient(180deg, rgba(26,18,14,0) 40%, rgba(26,18,14,.82) 100%)" aria-hidden="true"></div><span class="d-title">Sunset Snorkel Cove</span><span class="d-sub">Calm-water reef · 10 min drive</span></div>
     </div>
   </div>
 </section>
@@ -442,7 +442,7 @@ const html = `<script type="application/ld+json">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h5 style="color:var(--cream-text); font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></h5>
+        <p class="footer-h" style="color:var(--cream-text); font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></p>
         <p>Thoughtfully curated luxury vacation homes across Washington and Hawaii, designed for comfort, adventure, and unforgettable memories.</p>
         <div class="social-icons">
           <a class="social-icon" href="#" aria-label="Facebook" target="_blank" rel="noopener">
@@ -462,15 +462,15 @@ const html = `<script type="application/ld+json">
         </div>
       </div>
       <div>
-        <h5>Explore</h5>
+        <p class="footer-h">Explore</p>
         <a href="/about">About</a><a href="/properties">Properties</a><a href="/guides">Guides</a><a href="/reviews">Reviews</a><a href="#faq">FAQ</a>
       </div>
       <div>
-        <h5>Contact</h5>
+        <p class="footer-h">Contact</p>
         <a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a><a href="#contact">Contact Us</a>
       </div>
       <div>
-        <h5>Newsletter</h5>
+        <p class="footer-h">Newsletter</p>
         <p>Curated stays &amp; seasonal offers, straight to your inbox.</p>
       </div>
     </div>

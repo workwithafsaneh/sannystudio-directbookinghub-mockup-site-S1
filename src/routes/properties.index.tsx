@@ -99,7 +99,7 @@ const html = `<header class="site-header">
     <div class="property-grid" id="propertyGrid">
 
       <div class="property-card" data-region="washington" data-guests="10" data-price="412" data-rating="4.98">
-        <div class="ph-photo has-photo" style="background-image:var(--img-ocean-blvd-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="18 Ocean Blvd exterior at dusk"><span class="card-tag">Signature Stay</span><span class="card-rating">★ 4.98</span></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="/images/properties/ocean-blvd/01-exterior-dusk.webp" alt="18 Ocean Blvd exterior at dusk" loading="lazy" decoding="async"><span class="card-tag">Signature Stay</span><span class="card-rating">★ 4.98</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Ocean Shores, Washington</div>
           <h2>18 Ocean Blvd — Coastal Retreat</h2>
@@ -110,7 +110,7 @@ const html = `<header class="site-header">
       </div>
 
       <div class="property-card" data-region="washington" data-guests="8" data-price="375" data-rating="4.89">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Ocean%20Shores%2C%20WA%2001.jpg?width=700')" role="img" aria-label="Oceanfront view near Ocean Shores, Washington"><span class="card-tag">Oceanfront</span><span class="card-rating">★ 4.89</span></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Beach%20at%20Ocean%20Shores%2C%20WA%2001.jpg?width=700" alt="Oceanfront view near Ocean Shores, Washington" loading="lazy" decoding="async"><span class="card-tag">Oceanfront</span><span class="card-rating">★ 4.89</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Ocean Shores, Washington</div>
           <h2>Driftwood Point Villa</h2>
@@ -121,7 +121,7 @@ const html = `<header class="site-header">
       </div>
 
       <div class="property-card" data-region="washington" data-guests="4" data-price="189" data-rating="4.92">
-        <div class="ph-photo has-photo" style="background-image:var(--img-cedar-hollow-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Cedar Hollow Cabin living area"><span class="card-tag">Cozy Getaway</span><span class="card-rating">★ 4.92</span></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="/images/properties/cedar-hollow/01-living-kitchen.webp" alt="Cedar Hollow Cabin living area" loading="lazy" decoding="async"><span class="card-tag">Cozy Getaway</span><span class="card-rating">★ 4.92</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Leavenworth, Washington</div>
           <h2>Cedar Hollow Cabin</h2>
@@ -132,7 +132,7 @@ const html = `<header class="site-header">
       </div>
 
       <div class="property-card" data-region="washington" data-guests="12" data-price="520" data-rating="4.94">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Westport%2C%20WA%20-%20beach%20scene.jpg?width=700')" role="img" aria-label="Westport, Washington coastline"><span class="card-tag">Large Group</span><span class="card-rating">★ 4.94</span></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Westport%2C%20WA%20-%20beach%20scene.jpg?width=700" alt="Westport, Washington coastline" loading="lazy" decoding="async"><span class="card-tag">Large Group</span><span class="card-rating">★ 4.94</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Westport, Washington</div>
           <h2>Pinecrest Lodge</h2>
@@ -143,7 +143,7 @@ const html = `<header class="site-header">
       </div>
 
       <div class="property-card" data-region="hawaii" data-guests="8" data-price="415" data-rating="4.95">
-        <div class="ph-photo has-photo" style="background-image:var(--img-firelight-01), linear-gradient(135deg, #1A120E, #3B2A20 55%, #3B2A20)" role="img" aria-label="Firelight Cottage garden hot tub"><span class="card-tag">Island Home</span><span class="card-rating">★ 4.95</span></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="/images/properties/firelight/01-hot-tub-garden.webp" alt="Firelight Cottage garden hot tub" loading="lazy" decoding="async"><span class="card-tag">Island Home</span><span class="card-rating">★ 4.95</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Princeville, Kauai, Hawaii</div>
           <h2>Firelight Cottage</h2>
@@ -154,7 +154,7 @@ const html = `<header class="site-header">
       </div>
 
       <div class="property-card" data-region="hawaii" data-guests="4" data-price="329" data-rating="4.97">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Kapalua%20Beach%20park%20Maui%20Hawaii%20%2845740255431%29.jpg?width=700')" role="img" aria-label="Kapalua Beach, Maui"><span class="card-tag">Island Escape</span><span class="card-rating">★ 4.97</span></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Kapalua%20Beach%20park%20Maui%20Hawaii%20%2845740255431%29.jpg?width=700" alt="Kapalua Beach, Maui" loading="lazy" decoding="async"><span class="card-tag">Island Escape</span><span class="card-rating">★ 4.97</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Kapalua, Maui, Hawaii</div>
           <h2>Kapalua Sunset Bungalow</h2>
@@ -165,7 +165,7 @@ const html = `<header class="site-header">
       </div>
 
       <div class="property-card" data-region="hawaii" data-guests="6" data-price="398" data-rating="4.91">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Haleiwa%20Beach%20and%20Maeaea%20Beach%20-%20Haleiwa%20Oahu%20Hawaii.jpg?width=700')" role="img" aria-label="Haleiwa Beach, North Shore Oahu"><span class="card-tag">Beachfront</span><span class="card-rating">★ 4.91</span></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Haleiwa%20Beach%20and%20Maeaea%20Beach%20-%20Haleiwa%20Oahu%20Hawaii.jpg?width=700" alt="Haleiwa Beach, North Shore Oahu" loading="lazy" decoding="async"><span class="card-tag">Beachfront</span><span class="card-rating">★ 4.91</span></div>
         <div class="property-body">
           <div class="property-loc">📍 North Shore, Oahu, Hawaii</div>
           <h2>Hale Nalu Beach House</h2>
@@ -176,7 +176,7 @@ const html = `<header class="site-header">
       </div>
 
       <div class="property-card" data-region="hawaii" data-guests="4" data-price="284" data-rating="4.90">
-        <div class="ph-photo has-photo" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Beach%20-%20panoramio.jpg?width=600')" role="img" aria-label="Lanikai Beach, Kailua, Oahu"><span class="card-tag">Couples Escape</span><span class="card-rating">★ 4.90</span></div>
+        <div class="ph-photo has-photo"><img class="ph-photo-img" src="https://commons.wikimedia.org/wiki/Special:FilePath/Lanikai%20Beach%20-%20panoramio.jpg?width=600" alt="Lanikai Beach, Kailua, Oahu" loading="lazy" decoding="async"><span class="card-tag">Couples Escape</span><span class="card-rating">★ 4.90</span></div>
         <div class="property-body">
           <div class="property-loc">📍 Kailua, Oahu, Hawaii</div>
           <h2>Lanikai Palms Cottage</h2>
@@ -205,7 +205,7 @@ const html = `<header class="site-header">
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h5 style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></h5>
+        <p class="footer-h" style="color:#EDD9BC; font-family:'Playfair Display',serif; font-size:1.1rem; text-transform:none; letter-spacing:0;">Savage <em>Vacations</em></p>
         <p>Thoughtfully curated luxury vacation homes across Washington and Hawaii, designed for comfort, adventure, and unforgettable memories.</p>
         <div class="footer-social" aria-label="Follow Savage Vacations on social media">
           <a href="#" class="social-icon" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-7.6h2.6l.4-3h-3v-1.9c0-.9.2-1.5 1.5-1.5h1.6V4.1C15.9 4 15 4 14 4c-2.2 0-3.7 1.3-3.7 3.8V10H7.7v3h2.6V21h3.2z"/></svg></a>
@@ -214,9 +214,9 @@ const html = `<header class="site-header">
           <a href="#" class="social-icon" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22 12s0-3-.4-4.4a2.9 2.9 0 0 0-2-2C17.9 5 12 5 12 5s-5.9 0-7.6.6a2.9 2.9 0 0 0-2 2C2 9 2 12 2 12s0 3 .4 4.4a2.9 2.9 0 0 0 2 2C6.1 19 12 19 12 19s5.9 0 7.6-.6a2.9 2.9 0 0 0 2-2C22 15 22 12 22 12zM10 15V9l5.2 3-5.2 3z"/></svg></a>
         </div>
       </div>
-      <div><h5>Explore</h5><a href="/">Home</a><a href="/properties">Properties</a><a href="/#why-direct">Why Book Direct</a><a href="/#faq">FAQ</a></div>
-      <div><h5>Contact</h5><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a></div>
-      <div><h5>Newsletter</h5><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
+      <div><p class="footer-h">Explore</p><a href="/">Home</a><a href="/properties">Properties</a><a href="/#why-direct">Why Book Direct</a><a href="/#faq">FAQ</a></div>
+      <div><p class="footer-h">Contact</p><a href="mailto:stay@savagevacations.com">stay@savagevacations.com</a><a href="tel:+15552478239">+1 (555) 247-8239</a></div>
+      <div><p class="footer-h">Newsletter</p><p>Curated stays &amp; seasonal offers, straight to your inbox.</p></div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Savage Vacations. All rights reserved.</span>
