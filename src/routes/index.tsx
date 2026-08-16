@@ -93,7 +93,9 @@ const html = `<script type="application/ld+json">
 </header>
 
 <main id="top">
+<div class="hero-wrap">
 <section class="hero">
+  <img class="hero-photo-img" src="/images/properties/ocean-blvd/01-exterior-dusk.webp" alt="Coastal vacation rental at Ocean Shores, Washington" loading="eager" fetchpriority="high" decoding="async">
   <div class="hero-content">
     <div class="eyebrow light" style="justify-content:center;">Washington Coast &nbsp;·&nbsp; Hawaii &nbsp;·&nbsp; Book Direct, Zero Fees</div>
     <h1>Every Great Journey<br><em>Starts With the Perfect Stay</em></h1>
@@ -118,6 +120,7 @@ const html = `<script type="application/ld+json">
     <div class="trust-chip"><span class="mark">✓</span>Local hosts — real humans, real fast</div>
     <div class="trust-chip"><span class="mark">✓</span>Best-rate guarantee, every stay</div>
   </div>
+</div>
 </div>
 
 <div class="container search-wrap">
